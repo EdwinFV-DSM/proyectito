@@ -101,6 +101,13 @@ footer h5{
     padding-inline-start: 20px;
 }
 
+.certifications i{
+    font-size: 1.5rem;
+    color: gray;
+    text-align: center;
+    display: block;
+}
+
 .redes_sociales a:hover{
     color: var(--color--base) !important;
     font-size: 1.2rem;
