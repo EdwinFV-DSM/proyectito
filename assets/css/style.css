@@ -107,6 +107,21 @@ footer h5{
     text-align: center;
     display: block;
 }
+.bi-asterisk{
+    color: red;
+    font-size: 0.5rem;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    display: flex;
+}
 
 .redes_sociales a:hover{
     color: var(--color--base) !important;
