@@ -4,7 +4,7 @@
 }
 
 :root {
-    --color--base: blueviolet;
+    --color--base: #5e72f6;
 }
 
 
@@ -16,6 +16,16 @@ span {
 nav .download .inicio {
     padding: 20px;
 
+}
+
+.container-fluid img{
+    opacity: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.container-fluid img:hover{
+    opacity: 50%;
+    transition: all 0.5s ease 0s;
 }
 
 .contenido{
@@ -145,4 +155,14 @@ footer a:hover {
 
 footer p{
     color: gray;
+}
+
+footer img{
+    opacity: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+footer img:hover{
+    opacity: 50%;
+    transition: all 0.5s ease 0s;
 }
